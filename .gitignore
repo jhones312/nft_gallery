@@ -1,0 +1,27 @@
+# Secrets (never commit API keys)
+lib/core/constants/api_secrets.local.dart
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Platform build artifacts
+**/android/.gradle/
+**/android/local.properties
+**/ios/Pods/
+**/ios/.symlinks/
+
+# Generated (regenerate with build_runner)
+# *.freezed.dart
+# *.g.dart
